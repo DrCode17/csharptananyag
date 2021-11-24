@@ -1,17 +1,4 @@
-﻿/*
-	Short keys:
-	alt + le/fel nyíl			sorok mozgatása
-	alt + shift + le/fel nyíl	sorok duplikálása
-	ctrl + f5					run
-	alt + f5					debug
-	f7							Check syntax
-	crtl + c					másol
-	ctrl + v					beilleszt
-	ctrl + z					visszavon
-	ctrl + y					visszavonja a visszavonást
-	ctrl + s					ment
-*/
-using System;
+﻿using System;
 
 namespace valtozok
 {
@@ -31,9 +18,9 @@ namespace valtozok
 			Console.WriteLine(c);
 			
 			//string
-
 			string szoveg = "alma";
 			Console.WriteLine(szoveg);
+
 			string banan = "banan";
 			Console.WriteLine(banan);
 			Console.WriteLine("Vegyel " + szoveg + "t es " + banan + "t a boltban legyszi.");
@@ -53,9 +40,18 @@ namespace valtozok
 			//int64:-9223372036854775808 -> 9223372036854775807
 			Console.WriteLine("Int64:\t" + Int64.MinValue + " -> " + Int64.MaxValue);
 
-			int d = 5;
-			Console.WriteLine(d);
+			int d = 1;
+			Console.WriteLine(d);//1
+
+			d = d+1;
+			Console.WriteLine(d);//2
 			
+			d++;
+			Console.WriteLine(d);//3
+			
+			d +=2;
+			Console.WriteLine(d);//5
+
 			int D = 7;
 			Console.WriteLine(D);
 
