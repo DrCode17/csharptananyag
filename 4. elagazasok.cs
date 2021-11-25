@@ -1,49 +1,69 @@
 using System;
 
-namespace elgazasok{
+namespace ciklusok
+{
     class Program{
         public static void Main(){
-            //if
-            int a = 1;
-            int b = 2;
+            //do while
+            //hátul tesztelő ciklus, egyszer mindenképp lefut
+            int i = 1;
+            Console.WriteLine(i);
+            do{
+                i++;
+                Console.WriteLine(i);
+            }while(i!=6); 
+            //}while(i == 0); //hiába teljesül a feltétel elsőre, egyszer lefut            
+            Console.WriteLine(i);
 
-            if(a < b){
-                Console.WriteLine("A kisebb");
+            //while
+            //Elöl tesztelő ciklus, nem biztos, hogy lefut
+            int j=1;
+            Console.WriteLine("j:" + j);
+            while(j<5){
+            //while(j==0){ //Teljesül a feltétel, így egyzser sem fut le
+                j++;
+                Console.WriteLine(j);
+            }
+            Console.WriteLine(j);
+            
+            //for
+            for(int k = 0; k < 10; k++){
+                Console.WriteLine("k:" + k );
             }
 
-            if(a == b){
-                Console.WriteLine("Egyenloek");
+            for(int l = 10; l != 0; l--){
+                Console.WriteLine("l:" + l );
+            }
+            
+            //for ciklusok egyben
+            for (i = 0, j=10; i < j; i++, j--)
+            {
+                Console.WriteLine("i: " + i + "\tj: " + j);
             }
 
-            if(a > b){
-                Console.WriteLine("A nagyobb");
+            for(i = 1 ; i < 5 ; i ++){
+                for(j = 1; j < 5; j++){
+                    Console.Write(i*j + " ");
+                }
+                Console.WriteLine();
             }
 
-            // else if
-            if(a > b){
-                Console.WriteLine("A nagyobb");
-            }else if(a == b){
-                Console.WriteLine("Egyenloek");
-            }else{ // a < b
-                Console.WriteLine("A kisebb");
+            //foreach
+            char[] myArray = {'H','e','l','l','o'};
+ 
+            for(i = 0; i < myArray.Length; i++)//Sima for ciklussal
+            {
+                Console.WriteLine(myArray[i]);
             }
 
-            //switch case
-            string be = "alma";
+            Console.WriteLine();
 
-            switch(be){
-                case "banan":
-                    Console.WriteLine("Banana");
-                    break;
-                
-                case "alma":
-                    Console.WriteLine("Apple");
-                    break;
-
-                case "pite":
-                    Console.WriteLine("Pie");
-                    break;
+            foreach(char ch in myArray)//ugyan az foreach-el
+            {
+                Console.WriteLine(ch);
             }
+            
+
         }
     }
 }

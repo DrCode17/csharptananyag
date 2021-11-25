@@ -1,0 +1,7 @@
+rekurzív függvény: faktoriális számolás
+számológép
+számkitaláló
+kő papír olló
+file beolvasás és azon dolhozás
+Érettségi feladatok megoldása
+advent of code feladatok
