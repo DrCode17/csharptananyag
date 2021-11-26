@@ -12,11 +12,11 @@ namespace ciklusok
                 i++;
                 Console.WriteLine(i);
             }while(i!=6); 
-            //}while(i == 0); //hiába teljesül a feltétel elsőre, egyszer lefut            
+            //}while(i == 0); //hiába teljesül a feltétel elsőre, egyszer lefut, ami a ciklusban van          
             Console.WriteLine(i);
 
             //while
-            //Elöl tesztelő ciklus, nem biztos, hogy lefut
+            //Elöl tesztelő ciklus, nem biztos, hogy lefut, ami a ciklusban van
             int j=1;
             Console.WriteLine("j:" + j);
             while(j<5){

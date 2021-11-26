@@ -4,6 +4,8 @@ namespace valtozok
 {
 	class Program
 	{
+		//Globális változó deklarálása(nem csak a main függvényen belül érhető el)
+		string globstr = "Globalis valtozo";
 		public static void Main(string[] args)
 		{
 			//betűk
@@ -94,6 +96,17 @@ namespace valtozok
 
 			float pi = 3.14159265f;
 			Console.WriteLine(pi); //3.14159265
+			/*
+			//random szám generálás
+			int rnd = new Random();
+			int randomszam = rnd*10%5;
+			Console.WriteLine("Random szam: " + );
+			*/
+            //globális változó használata
+            Program program = new Program();
+			Console.WriteLine(program.globstr);
+
+
 		}
 	}
 }

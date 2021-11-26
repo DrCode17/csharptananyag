@@ -1,5 +1,7 @@
-. óra  Visual Studio Code bemutatása, Visual Studio 2022 ismertetése, alapok(szintaxis), kiírások(Hello World), console bekérés (ellenőrzötten)
-. óra  Változók létrehozása, összeadása, összefűzése... (lokális, globális), véletlen számok, abszolút érték, .Compare(), (private, public)
+. óra  Visual Studio Code bemutatása, Visual Studio 2022 ismertetése, alapok(szintaxis), kiírások(Hello World), 
+            console bekérés (ellenőrzötten)
+. óra  Változók létrehozása, összeadása, összefűzése... (lokális, globális), véletlen számok, abszolút érték, .Compare(), 
+            (private, public)
 . óra  Tömbkezelés (1 dimenziós, több dimenziós)
 . óra  Ciklusok(do while, while, for, foreach, for in for)
 . óra  #1 Programozási tételek: Sorozatszámítás, összesítés
@@ -8,7 +10,7 @@
 . óra  #3 Programozási tételek: Eldöntés, Lineáris keresés
 . óra  #4 Programozási tételek: Kiválogatás, Buborékos rendezés
 . óra  Érettségi feladatsor megnézése
-. óra  Függvények(void, string, int...)
+. óra  Függvények(void, string, int...), származtatás, öröklődés
 . óra  File kezelés(írás, olvasás)
 . óra  Gyakorlás
 . óra  
