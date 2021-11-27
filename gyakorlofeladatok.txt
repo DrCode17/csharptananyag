@@ -5,3 +5,5 @@ kő papír olló
 file beolvasás és azon dolhozás
 Érettségi feladatok megoldása
 advent of code feladatok
+Projektfeladat, amit az elején elkezdnek, az oktató jóvá hagyja és mindenki maga választja ki
+    (hasonló feladatok bemutatása, hogy milyen kell)

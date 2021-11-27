@@ -11,7 +11,11 @@
 	ctrl + y					visszavonja a visszavonást
 	ctrl + s					ment
 
-	Visual Studio Code egy egyzserű fejlesztő környezet, alapból kb egy szövegszerkesztőhöz lehet hasonlítani, és kell nekünk majd a
+	C#: Modern, fejlett, magas szintű progrmozási nyelv egy csomó előre megírt függvénnyel. Microsoft fejlesztette (van hozzá 
+		dokumentáció, referenciák a neten) a .NET keretrendszerrel Egyszerű szintaktika, Objektum Orientált, alapja a C++ és a 
+		java, szóval ha az megy, akkor ez sem lesz nehéz és fordítva is igaz. Erősen tipusos, dinamikus és statikus elemei is vannak.   
+
+	Visual Studio Code egy egyszerű fejlesztő környezet, alapból kb egy szövegszerkesztőhöz lehet hasonlítani, és kell nekünk majd a
 		GitLab letöltése, hogy a githubbal össze lehessen kötni. Kell egy kiegészítő, hogy C# kódot tudjunk írni benne és futtatni 
 		(CS-Script). Így már többet tud, mint egy szövegszerkesztő
 		Van egy csomó kiegészítő hozzá, így lehet a kódot is színesebbé tenni pl.: "Prettier - Code formatter"
