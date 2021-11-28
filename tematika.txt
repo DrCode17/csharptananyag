@@ -2,9 +2,10 @@
 			alapok(szintaxis), miért hasznos a c#, mire használják, kiírás(Hello World) 
 . óra	Bekérés, kiiratás, Változók létrehozása, összeadása, összefűzése... (lokális, globális),
 . óra	véletlen számok, abszolút érték, .Compare(), (private, public)
-. óra  	Tömbkezelés (1 dimenziós, több dimenziós)
+. óra  	Tömbkezelés + for ciklus
+. óra	Több dimenziós tömb + for in for 
 . óra  	Ciklusok1 (do while, while)
-. óra	Cilusok2 (for, foreach, for in for)
+. óra	Cilusok2 (foreach)
 . óra  	#1 Programozási tételek: Sorozatszámítás, összesítés
 . óra  	Elágazások(switch case, if, else if)
 . óra  	#2 Programozási tételek: Megszámlálás, Maximum kiválasztás
