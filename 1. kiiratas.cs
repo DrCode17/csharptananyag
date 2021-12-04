@@ -48,23 +48,6 @@ class Program{
 		Console.Write("Adjon meg egy szót: ");
         string s = Console.ReadLine();
         Console.WriteLine("A szó: "+ s);		
-
-		
-		//ellenőrzött bekérés
-		string bekert = "";
-		int i = 0;
-
-		Console.WriteLine("Ird be, hogy \"alma\":");
-		do{
-			if(i>0){
-				Console.WriteLine("Próbáld újra!");
-			}
-			bekert = Console.ReadLine();
-			i++;
-			Console.WriteLine("hossza: " + bekert.Length);
-		}while(bekert != "alma" );
-		//}while(!bekert.Equals("alma"));
-		Console.WriteLine("A szo: " + bekert);
 		
 		Console.WriteLine("Uss le egy gombot es a program futasa leall.");
 

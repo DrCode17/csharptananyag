@@ -14,8 +14,10 @@ namespace valtozok
 			Console.WriteLine(a);
 			char b = 'z';
 			Console.WriteLine(b);
+			Console.WriteLine(a + b);
 			
 			//string konverzió
+			Console.WriteLine(a.ToString() + b.ToString());
 			string c = a.ToString() + b.ToString();
 			Console.WriteLine(c);
 			
@@ -73,14 +75,13 @@ namespace valtozok
 			Console.WriteLine("Double:\t" + Double.MinValue + " -> " + Double.MaxValue);
 
 			double doub = d / D;
-			Console.WriteLine(doub);//0
-
+			Console.WriteLine("doub: " + doub);//0
+			
 			//double konverzió
-			double osztott = (double)d / D;
-			Console.WriteLine(osztott);  //0,7142857142857143
-
-			double osztott2 = d / (double)D;
-			Console.WriteLine(osztott2); //0,7142857142857143
+			double doub2 = d / (double)D;
+			Console.WriteLine("doub2: " + doub2);//0,7142857142857143
+			doub2 = (double)d / D;
+			Console.WriteLine("doub2: " + doub2);//0,7142857142857143
 
 			double tort = 2.15;
 			Console.WriteLine(tort); //2,15
@@ -102,7 +103,14 @@ namespace valtozok
 			int randomszam = rnd*10%5;
 			Console.WriteLine("Random szam: " + );
 			*/
-            //globális változó használata
+            
+			//boolean
+			bool okos = false;
+			Console.WriteLine(okos);
+			okos = true;
+			Console.WriteLine(okos);
+
+			//globális változó használata
             Program program = new Program();
 			Console.WriteLine(program.globstr);
 

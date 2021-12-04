@@ -15,6 +15,22 @@ namespace ciklusok
             //}while(i == 0); //hiába teljesül a feltétel elsőre, egyszer lefut            
             Console.WriteLine(i);
 
+            //ellenőrzött bekérés
+		    string bekert = "";
+		    int i = 0;
+
+		    Console.WriteLine("Ird be, hogy \"alma\":");
+		    do{
+			    if(i>0){
+				    Console.WriteLine("Próbáld újra!");
+			    }
+			    bekert = Console.ReadLine();
+			    i++;
+			    Console.WriteLine("hossza: " + bekert.Length);
+		    }while(bekert != "alma" );
+		    //}while(!bekert.Equals("alma"));
+		    Console.WriteLine("A szo: " + bekert);
+
             //while
             //Elöl tesztelő ciklus, nem biztos, hogy lefut
             int j=1;
