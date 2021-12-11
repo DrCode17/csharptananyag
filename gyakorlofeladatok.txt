@@ -7,3 +7,4 @@ file beolvasás és azon dolhozás
 advent of code feladatok
 Projektfeladat, amit az elején elkezdnek, az oktató jóvá hagyja és mindenki maga választja ki
     (hasonló feladatok bemutatása, hogy milyen kell)
+Érettségi feladatok házinak és gyakorlásnak

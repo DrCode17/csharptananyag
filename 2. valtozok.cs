@@ -32,18 +32,9 @@ namespace valtozok
 			Console.WriteLine( szoveg + "\n" + banan );	//sortörés
 			
 			//számok
-			//byte: 0 -> 255
-			Console.WriteLine("Byte:\t " + byte.MinValue + " -> " + byte.MaxValue);
-
-			//int16:-32768 -> 32767
-			Console.WriteLine("Int16:\t" + Int16.MinValue + " -> " + Int16.MaxValue);
-
-			//int32:-2147483648 -> 2147483647
-			Console.WriteLine("Int32:\t" + Int32.MinValue + " -> " + Int32.MaxValue);
-
-			//int64:-9223372036854775808 -> 9223372036854775807
-			Console.WriteLine("Int64:\t" + Int64.MinValue + " -> " + Int64.MaxValue);
-
+			//int
+			Console.WriteLine(int.MinValue + "->" + int.MaxValue);
+			
 			int d = 1;
 			Console.WriteLine(d);//1
 
