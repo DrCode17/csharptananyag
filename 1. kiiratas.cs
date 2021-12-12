@@ -43,11 +43,7 @@ class Program{
         //\n sortörés; \t tabulátor
 
         Console.WriteLine("Ez egy");                                
-        Console.WriteLine("tobb soros kiiras");                     //WriteLine egy sortöréssel ér fel a sor végén
-        
-		Console.Write("Adjon meg egy szót: ");
-        string s = Console.ReadLine();
-        Console.WriteLine("A szó: "+ s);		
+        Console.WriteLine("tobb soros kiiras");                     //WriteLine egy sortöréssel ér fel a sor végén		
 		
 		Console.WriteLine("Uss le egy gombot es a program futasa leall.");
 
