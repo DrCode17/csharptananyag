@@ -37,7 +37,7 @@ using System;
 class Program{
     public static void Main(){
         Console.Write("Hello Word!");                               //Simán egymás mellé tudsz kiírni 
-        Console.Write(" Today is the best day for learning C#.");
+        Console.WriteLine("Ez a legjobb nap, hogy elkezdd tanulni a C#-ot.");
 
         Console.WriteLine("\nA kiirast " + "igy is " + "ossze tudod fuzni.");
         //\n sortörés; \t tabulátor
